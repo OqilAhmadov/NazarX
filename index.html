@@ -1,0 +1,662 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="css/theme-style.css" rel="stylesheet" type="text/css">
+    <!-- <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.1/css/all.css">
+
+    <!-- Video Background HTML 5 Here -->
+    <link href="css/home.css" rel="stylesheet" type="text/css">
+
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="./flip/flip.min.css">
+
+    <script src="./js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+</head>
+
+<body>
+
+
+    <!-- Video Background HTML 5 Here -->
+    <section class="overlay">
+        <div class="modal-form">
+            <button class="sign-in" onclick="document.getElementById('modform').style.display='block'"
+                style="width:auto;">Ro'yhatdan
+                o'tish</button>
+
+            <div id="modform" class="background-modal">
+
+                <form class="modal-content animate" action="your-page.php">
+
+                    <div class="close-button">
+                        <span onclick="document.getElementById('modform').style.display='none'" class="close"
+                            title="Close Modal">&times;</span>
+
+                    </div>
+
+                    <div class="container">
+                        <label for="username">
+                            <h4>Ism Familyangiz.</h4>
+                        </label>
+                        <input class="form-items" type="text" placeholder="Ism va familyangizni kiriting."
+                            name="username" required>
+
+                        <label for="text">
+                            <h4>Manzilingiz.</h4>
+                        </label>
+                        <input class="form-items" type="text" placeholder="Manzilingizni to'liq kiriting." name="text"
+                            required>
+
+                        <label for="number">
+                            <h4>Telefon raqamingiz.</h4>
+                        </label>
+                        <input class="form-items" type="tel" placeholder="Telefon raqamingizni kiriting." name="number"
+                            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+
+                        <label for="text">
+                            <h4>Qancha to'lov qildingiz.?</h4>
+                        </label>
+                        <input class="form-items" type="text" placeholder="To'lov summasini kiriting." name="text"
+                            required>
+                        <h4>Qaysi to'lov tizimidan foydalandingiz.</h4>
+                        <div class="form-checkbox">
+                            <label for="checkbox" class="checkbox">
+                                <input type="checkbox" name="remember"> UZCARD
+                                <input type="checkbox" name="remember"> HUMO
+                                <input type="checkbox" name="remember"> VISA
+                            </label>
+                            <label for="checkbox" class="checkbox">
+                                <input type="checkbox" name="remember"> UNIONPAY
+                                <input type="checkbox" name="remember"> SBERBANK
+                                <input type="checkbox" name="remember"> NAQD
+                            </label>
+                        </div>
+
+
+                        <button type="submit">YUBORISH</button>
+
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+        <!-- Video background starts here  -->
+        <div class="fullscreen-bg">
+            <video loop muted autoplay poster="media/explore-poster.jpg" preload="none" class="fullscreen-bg__video">
+                <source src="media/videoframe.webm" type="video/webm">
+                <source src="media/Earth.mp4" type="video/mp4">>
+            </video>
+        </div>
+        <!-- Logo starts here  -->
+        <img class="logo wow animate__fadeInDown" data-wow-duration="3s" src="./media/Logo NazarXwhit.png" alt="">
+        <!-- Counting day starts here  -->
+
+        <div class="tick-counting">
+            <div class="counting-title">
+                PARVOZGACHA
+            </div>
+            <div class="tick" data-did-init="handleTickInit">
+
+                <div data-repeat="true" data-layout="horizontal center fit"
+                    data-transform="preset(d, h, m, s) -> delay">
+
+                    <div class="tick-group">
+
+                        <div data-key="value" data-repeat="true" data-transform="pad(00) -> split -> delay">
+
+                            <span data-view="flip"></span>
+
+                        </div>
+
+                        <span data-key="label" data-view="text" class="tick-label"></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="counting-title count-title2">
+                QOLDI!
+            </div>
+        </div>
+        <!-- Content titles starts here  -->
+        <div class="content wow animate__fadeIn" data-wow-duration="10s">
+            <h3 class="sub-about">1 MILLION UZBEK LOYIHASIGA START BERDIK!</h3>
+            <div class="payment">
+                <div class="all-money">
+                    YIG'ILGAN UMUMIY PUL <span>189.000$</span>
+                </div>
+                <div class="target-money">
+                    MAQSAD <span>500.000$</span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr class="center-line">
+        <button class="contact" data-toggle="modal" data-target="#exampleModalCenter"><a href="#">Pul
+                yuborish</a></button>
+        <!-- Modal -->
+        <!-- Button trigger modal -->
+
+
+        <!-- Modal cards-->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Hisob raqamlari</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cards">
+                            <div class="card-item">
+                                <img class="uzcard" src="./media/uzcard2.jpg" alt="uzcard">
+                                <label class="label-text" for="myInput1">
+                                    <input class="copyInput" type="text" value="8600 1404 9959 3011" id="myInput1">
+                                    Ziyodulla Butakhonov
+                                </label>
+                                <div class="tooltip1">
+                                    <button class="card-btn" onclick="myFunction1()" onmouseout="outFunc()">
+                                        <span class="tooltiptext1" id="myTooltip">Karta raqamini nusxalash</span>
+                                        Nusxa olish
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="card-item">
+                                <img class="uzcard" src="./media/humo (1).png" alt="uzcard">
+                                <label class="label-text" for="myInput2">
+                                    <input class="copyInput" type="text" value="9860 1701 0472 4639" id="myInput2">
+                                    Ziyodulla Butakhonov</label>
+                                <div class="tooltip1">
+                                    <button class="card-btn" onclick="myFunction2()" onmouseout="outFunc()">
+                                        <span class="tooltiptext1" id="myTooltip">Karta raqamini nusxalash</span>
+                                        Nusxa olish
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <img class="uzcard" src="./media/visa.svg" alt="uzcard">
+                                <label class="label-text" for="myInput3">
+                                    <input class="copyInput" type="text" value="4023 0602 3259 6246" id="myInput3">
+                                    Ziyodulla Butakhonov
+                                </label>
+                                <div class="tooltip1">
+                                    <button class="card-btn" onclick="myFunction3()" onmouseout="outFunc()">
+                                        <span class="tooltiptext1" id="myTooltip">Karta raqamini nusxalash</span>
+                                        Nusxa olish
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <img class="uzcard" src="./media/unionPP.png" alt="uzcard">
+                                <label class="label-text" for="myInput4">
+                                    <input class="copyInput" type="text" value="6210 4501 5078 6648" id="myInput4">
+                                    Ziyodulla Butakhonov
+                                </label>
+                                <div class="tooltip1">
+                                    <button class="card-btn" onclick="myFunction4()" onmouseout="outFunc()">
+                                        <span class="tooltiptext1" id="myTooltip">Karta raqamini nusxalash</span>
+                                        Nusxa olish
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <img class="uzcard" src="./media/sber2.png" alt="uzcard">
+                                <label class="label-text" for="myInput5">
+                                    <input class="copyInput" type="text" value="5469 1600 2378 6283" id="myInput5">
+                                    Siddiq Sodiq Fozilov
+                                </label>
+                                <div class="tooltip1">
+                                    <button class="card-btn" onclick="myFunction5()" onmouseout="outFunc()">
+                                        <span class="tooltiptext1" id="myTooltip">Karta raqamini nusxalash</span>
+                                        Nusxa olish
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary fs-1" data-dismiss="modal">Yopish</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Social  -->
+        </div>
+        <div class="social">
+            <div class="networks">
+                <a href="https://t.me/Ziyodulla_nazarx"> <i class="fab fa-telegram"></i></a>
+                <a href="https://www.instagram.com/nazarxuz/"> <i class="fab fa-instagram"></i></i></a>
+                <a href="https://www.instagram.com/nazarxuz/"><i class="fab fa-facebook-f"></i></i></a>
+            </div>
+        </div>
+    </section>
+    <div class="target">
+        <div class="target-text">
+            <p>MAQSADIMIZ BIZ BIRLASHIB ORBITAGA, YA'NI KOSMOSGA BIRINCHILARDAN BO'LIB RAKETA UCHIRISH VA KOSMOSNI ZABT
+                ETISH!</p>
+            <p>AGAR BIZ 1 MILLION O'ZBEK BIRLASHSAK NAFAQAT KOSMOS BALKI BOSHQA SOHALARDA HAM O'ZBEKLARNI KUCHINI
+                DUNYOGA
+                ALBATTA KO'RSATIB QO'YAMIZ.</p>
+            <p>SIZ FAQAT BIZNI ISTALGAN MABLAG' BILAN QO'LLAB QUVVATLANG VA KOSMOSNI ZABT ETISH UCHUN SIZ HAM O'Z
+                HISSANGIZNI QO'SHING VA ALBATTA TARIXDA QOLING.!</p>
+        </div>
+    </div>
+    <div class="model-view">
+        <div class="model-item">
+            <div class="model-video">
+                <iframe width="700" height="400" src="https://www.youtube.com/embed/mWftXBxhn5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="rocket-video-title">Nazar X kompaniyasi tomonidan ishlab chiqilgan birinchi Milliy Turbo Dvigatel</div>
+        </div>
+        <div class="model-item">
+
+
+            <div class="model-video">
+                <iframe width="700" height="400" src="https://www.youtube.com/embed/mXrgFuMdgM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="rocket-video-title">Nazar X jamoasi tomonidan loyihalashtirilgan Birinchi Milliy Rocket.</div>
+        </div>
+    </div>
+    <div class="info-target">
+        <h3 class="info-target-title">BIZNI MODDIY QO'LLAB QUVATLAB SIZ NIMALARGA ERISHASIZ</h3>
+        <div class="info-items">
+            <div>
+                <div class="info-card">
+                    <i class="fas fa-highlighter"></i>
+                    <p>SIZNING ISMINGIZ KO'PLAB BIZNI QO'LLAB QUVVATLAGAN INSONLAR QATORIDA LOYIHALASHTIRILGAN RAKETAMIZ
+                        USTIGA O'YIB YOZILADI.</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-gift"></i>
+                    <p>RO'YHATDAN O'TISH JARAYONIDA O'Z YASHASH MANZILINGIZNI QOLDIRING VA MINNATDORCHILIGIMIZNI VA
+                        KICHIK
+                        SOVG'AMIZNI QABUL QILING.</p>
+                </div>
+            </div>
+            <div>
+                <div class="info-card">
+                    <i class="fas fa-award"></i>
+                    <p>O'NLAB YILLARDAN KEYIN USHBU ULKAN LOYIHAGA VA O'ZBEKISTONDA KOSMONAVTIKA SOHASINI
+                        RIVOJLANTIRISHGA
+                        O'Z
+                        HISSANGIZNI QO'SHGANINGIZNI FARZANDLARINGIZGA VA NABIRALARINGIZGA FAXRLANIB AYTIB BERASIZ.!</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-clipboard-check"></i>
+                    <p>BUNDAN TASHQARI SIZ VA BIZ BIRGALIKDA AMALGA OSHIRILGAN ENG ULKAN LOYIHA SIFATIDA GINNESLAR
+                        RO'YHATIDAN
+                        JOY OLAMIZ.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="project-table">
+        <div class="limiter">
+            <div class="container-table100">
+                <h3 class="table-title">LOYIHA HARAJATLARI</h3>
+                <div class="wrap-table100">
+                    <div class="table100">
+                        <table>
+                            <thead>
+                                <tr class="table100-head">
+                                    <th class="column1">Ism Familya</th>
+                                    <th class="column2">Sana</th>
+                                    <th class="column3">Manzil</th>
+                                    <th class="column6">O'tkazma</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$999.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$756.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$44.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$30.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$1494.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$699.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$2199.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$999.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$999.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$999.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$2199.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$999.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$999.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$999.00</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="limiter">
+            <div class="container-table100">
+                <h3 class="table-title">LOYIHA UCHUN PUL YUBORGANLAR</h3>
+                <div class="wrap-table100">
+                    <div class="table100">
+                        <table>
+                            <thead>
+                                <tr class="table100-head">
+                                    <th class="column1">Ism Familya</th>
+                                    <th class="column2">Sana</th>
+                                    <th class="column3">Manzil</th>
+                                    <th class="column6">O'tkazma</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$999.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$756.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$44.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$30.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$1494.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$699.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$2199.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$999.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$999.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$999.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$2199.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$999.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$999.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">Sobirov Akbar</td>
+                                    <td class="column2">2021/07/26</td>
+                                    <td class="column3">Uzbekistan, Tashkent city</td>
+                                    <td class="column6">$999.00</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="table-sum">
+                <h3>YIG'ILGAN UMMUMIY PUL <span>189.000$</span></h3>
+            </div>
+        </div>
+    </div>
+    <hr class="hr-bottom">
+    <div class="video-about">
+        <h2 class="video-title">NAZAR X LOYIHASI BOSHLANISHI VA TARIXI.</h2>
+        <div class="history-project">
+            <div><iframe width="700" height="400" src="https://www.youtube.com/embed/2BuzODbheHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div><iframe width="700" height="400" src="https://www.youtube.com/embed/jWmfH5EAjT0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-items">
+            <div class="footer-logo"><img src="./media/Logo NazarXwhit.png" alt="NazarX">
+                <div class="footer-adress">
+                    <div>MANZIL: 100174, TOSHKENT</div>
+                    <div>SH., OLMAZOR T.,</div>
+                    <div>UNIVERSITET KO'CH., 7-UY</div>
+                </div>
+            </div>
+            <div class="footer-social">
+                <h3>BIZ HAQIMIZDA</h3>
+                <ul>
+                    <li><a href="https://t.me/Ziyodulla_nazarx"> <i class="fab fa-telegram"></i></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/nazarxuz/"> <i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/nazarxuz/"><i class="fab fa-facebook-f"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3><i class="fas fa-phone"></i>&nbsp;+99890 630 60 60</h3>
+                <div>@ 2021 COPYRIGHT:</div>
+                <div>NAZARX.UZ</div>
+            </div>
+        </div>
+    </footer>
+    <!-- END Video Background HTML 5 -->
+
+    <script src="js/simplyCountdown.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/count.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script>
+
+
+
+
+        var d = new Date(new Date().getTime() + 1000 * 120 * 120 * 2000);
+
+        // default example
+        simplyCountdown('.simply-countdown-one', {
+            year: d.getFullYear(),
+            month: d.getMonth() + 1,
+            day: d.getDate()
+        });
+
+        //jQuery example
+        $('#simply-countdown-losange').simplyCountdown({
+            year: d.getFullYear(),
+            month: d.getMonth() + 1,
+            day: d.getDate(),
+            enableUtc: false
+        });
+
+        function handleTickInit(tick) {
+
+            // Uncomment to set labels to different language ( in this case Dutch )
+            /*
+            var locale = {
+                YEAR_PLURAL: 'Jaren',
+                YEAR_SINGULAR: 'Jaar',
+                MONTH_PLURAL: 'Maanden',
+                MONTH_SINGULAR: 'Maand',
+                WEEK_PLURAL: 'Weken',
+                WEEK_SINGULAR: 'Week',
+                DAY_PLURAL: 'Dagen',
+                DAY_SINGULAR: 'Dag',
+                HOUR_PLURAL: 'Uren',
+                HOUR_SINGULAR: 'Uur',
+                MINUTE_PLURAL: 'Minuten',
+                MINUTE_SINGULAR: 'Minuut',
+                SECOND_PLURAL: 'Seconden',
+                SECOND_SINGULAR: 'Seconde',
+                MILLISECOND_PLURAL: 'Milliseconden',
+                MILLISECOND_SINGULAR: 'Milliseconde'
+            };
+        
+            for (var key in locale) {
+                if (!locale.hasOwnProperty(key)) { continue; }
+                tick.setConstant(key, locale[key]);
+            }
+            */
+            var nextYear = (new Date()).getFullYear() + 1;
+
+
+            Tick.count.down(nextYear + '-01-28').onupdate = function (value) {
+                tick.value = value;
+            };
+
+        }
+
+    </script>
+
+    <!-- END OF FLIP EXAMPLE PRESET -->
+
+    <script src="./flip/flip.min.js"></script>
+</body>
+
+</html>
